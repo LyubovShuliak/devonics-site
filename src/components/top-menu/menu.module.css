@@ -1,0 +1,17 @@
+.logo {
+  width: 36.875vw;
+  height: 96px;
+  display: block;
+
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+.link {
+  width: fit-content;
+}
+.gamburger {
+  display: block;
+  width: 36px;
+  height: 27px;
+  margin-top: 30px;
+}

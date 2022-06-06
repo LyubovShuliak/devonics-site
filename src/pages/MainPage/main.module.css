@@ -1,0 +1,21 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 96px 0 0 96px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  background: url("../../assets/images/skull.svg"),
+    url("../../assets/images/multi-arrow.svg"),
+    url("../../assets/images/hieroglyph.svg"),
+    url("../../assets/images/FUTURE.svg"),
+    url("../../assets/images/background.png"),
+    url("../../assets/images/WorldWide.svg"),
+    url("../../assets/images/background-2.svg");
+  background-size: 361px 444px, 37px 307px, 26.33% 46px, 64px 29.35%, 100vw auto,
+    70% 100%, 100vw auto;
+  background-position: center, left 96px bottom 180px, left 0 bottom 96px,
+    right 5% top 60%, left 0 top 0, left 0 top 0, left 0 top 0;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat;
+}

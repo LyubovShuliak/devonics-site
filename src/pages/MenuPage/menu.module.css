@@ -1,0 +1,23 @@
+.menu_container {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../assets/images/UKRAINE.png"),
+    url("../../assets/images/menu-arrow.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 30px bottom 60px, right 0 top 0;
+  animation-name: menu_container_animation;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+
+@keyframes menu_container_animation {
+  0% {
+    background-position: right 30px bottom -100vh, right 0 top -100vh;
+  }
+  50% {
+    background-position: right 30px bottom -105vh, right 0 top 5vh;
+  }
+  100% {
+    background-position: right 30px bottom 60px, right 0 top 0;
+  }
+}
