@@ -7,3 +7,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("./assets/font/static/Inter-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./assets/font/static/Inter-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("./assets/font/static/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter ExtraBold";
+  src: url("./assets/font/static/Inter-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Inter Black";
+  src: url("./assets/font/static/Inter-Black.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url("./assets/font/static/Inter-Bold.ttf");
+  font-weight: 700;
+}

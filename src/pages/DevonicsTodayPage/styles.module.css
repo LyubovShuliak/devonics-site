@@ -1,0 +1,114 @@
+.page_container {
+  padding: 96px 96px 0 120px;
+  background: url("../../assets/images/landing/multilines.png"),
+    url("../../assets/images/landing/metal.png"),
+    url("../../assets/images/landing/metal-half.png"),
+    url("../../assets/images/landing/multilines-rotated.png"),
+    url("../../assets/images/landing/future-dj.png"),
+    url("../../assets/images/landing/multilines.png"),
+    url("../../assets/images/landing/m-2.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat;
+  background-position: top 575px left 0, top 654px right 0, top 1862px left 0,
+    top 1862px right 0, right 106px top 2600px, top 4100px left 0,
+    top 4800px left 200px;
+  overflow: hidden;
+}
+.background {
+  margin: 120px;
+}
+.top_nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  width: 34.375vw;
+  margin: auto;
+  color: white;
+}
+.header + .header {
+  margin-top: 595px;
+}
+.header_title {
+  font-family: "Inter Bold";
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.header_subtitle {
+  width: 60%;
+  font-size: 16px;
+  font-family: "Inter-Light";
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 300px 150px;
+  padding: 64px 165px;
+  column-gap: 150px;
+  row-gap: 91px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+}
+.image:last-of-type {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: end;
+}
+
+.random_text {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+}
+.random_text_title {
+  color: yellow;
+  font-family: "Inter-Bold";
+  font-size: 24px;
+}
+.random_text_subtitle {
+  color: rgba(234, 39, 195, 1);
+  font-family: "Inter-Light";
+  font-size: 20px;
+}
+.header {
+  margin-top: 120px;
+}
+.left_side {
+  margin: 0;
+  padding-left: 172px;
+}
+.devonics_string {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 274px;
+}
+.devonics_string p:nth-of-type(even) {
+  width: 337px;
+  font-family: "Inter Black";
+  font-size: 48px;
+  font-weight: 700;
+  color: rgba(234, 39, 195, 1);
+  font-stretch: ultra-expanded;
+}
+.devonics_string p:nth-of-type(odd) {
+  width: 337px;
+  font-family: "Inter Black";
+  font-size: 48px;
+  font-weight: 700;
+  color: yellow;
+  font-stretch: ultra-expanded;
+}
+.header:last-of-type {
+  margin-top: 345px;
+}
+.images:last-of-type {
+  grid-template-rows: 1fr;
+}
