@@ -13,11 +13,9 @@ const TopMenu = () => {
           alt=""
         />
       </Link>
-      <img
-        className={style.logo}
-        src={require("../../assets/images/logo.png")}
-        alt=""
-      />
+      <Link to="/" className={style.logo}>
+        <img src={require("../../assets/images/logo.png")} alt="" />
+      </Link>
     </>
   );
 };
